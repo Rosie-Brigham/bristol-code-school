@@ -1,34 +1,93 @@
 body {
   margin: 0;
 }
-header img {
-  width: 100vw;
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Reenie Beanie', cursive;
+}
+span, p, input {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff
 }
 
 .pink {
-  color: #ed4165;
+  color:#f64372;
 }
 
 .background-pink {
-  background-color: #ed4165;
+  background-color:#f64372;
 }
 
 .blue {
-  color: #231d67;
+  color: #242582;
 }
 
 .background-blue {
-  background-color: #231d67;
+  background-color: #242582;
 }
 
-.yellow {
-  color: #fcd307;
+.light-blue {
+  color: #2f2fa2;
 }
 
-.background-yellow {
-  background-color: #fcd307;
+.background-light-blue {
+  background-color: #2f2fa2;
 }
 
 .grey {
   color: #cbcbcb
+}
+
+.background-grey {
+  background-color: #cbcbcb
+}
+
+.border-pink {
+  border: 3px solid #f64372;
+}
+
+.background-dpink {
+  background-color: #553d67; 
+}
+
+.dpink {
+  color: #553d67;
+}
+
+.split-background {
+  background: linear-gradient(to bottom, #242582 0%,#242582 50%,#000000 50%,#2f2fa2 50%,#2f2fa2 100%); 
+}
+
+/* specific styles */
+header {
+  display: block;
+  position: relative;
+  width: 100vw;
+  background-color: rgba(34, 28, 103, 0.2);
+}
+
+header::after {
+  content: "";
+  background-image: url("./images/code-image.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+input {
+  background-color: #242582;
+  border: 0;
+  border-bottom: 2px solid #f64372;
+}
+
+input::placeholder {
+  color: #cbcbcb;
+}
+
+input.submit {
+  border: 2px solid #f64372;
 }
