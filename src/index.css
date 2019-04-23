@@ -9,6 +9,10 @@ span, p, input {
   color: #ffffff
 }
 
+h2 {
+  font-size: 5em;
+}
+
 .pink {
   color:#f64372;
 }
@@ -57,6 +61,15 @@ span, p, input {
   background: linear-gradient(to bottom, #242582 0%,#242582 50%,#000000 50%,#2f2fa2 50%,#2f2fa2 100%); 
 }
 
+section::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+section::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
 /* specific styles */
 header {
   display: block;
@@ -95,6 +108,8 @@ input.submit {
 /* specific */
 .why-learn {
   overflow: scroll;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 .why-one {
   /* position: absolute; */
@@ -102,11 +117,10 @@ input.submit {
   height: 100vh;
   top: 10%;
   left: 50%;
-  background-image: url("https://i2-prod.bristolpost.co.uk/incoming/article314282.ece/ALTERNATES/s1227b/balloon-fiesta-thursday-06.jpg");
+  background-image: url("./images/balloon-fire.jpg");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: 60%;
-  filter: grayscale(100%);
   margin: 0 auto;
 }
 
@@ -119,7 +133,7 @@ input.submit {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 60%;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   margin: 0 auto;
 }
 
@@ -129,11 +143,11 @@ input.submit {
   height: 100vh;
   top: 10%;
   left: 50%;
-  /* background-image: url("./images/balloon3.jpg"); */
+  background-image: url("./images/hot-air-balloon.jpg");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: 60%;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   margin: 0 auto;
 }
 
@@ -142,10 +156,9 @@ input.submit {
   height: 100vh;
   top: 10%;
   left: 50%;
-  background-image: url("./images/balloon-taking-off.jpg");
+  background-image: url("./images/blue-balloon.jpg");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 60%;
-  filter: grayscale(100%);
   margin: 0 auto;
 }

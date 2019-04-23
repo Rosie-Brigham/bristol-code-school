@@ -37,10 +37,7 @@ class App extends Component {
             Always wanted to learn to code but never got round to it? Here's your chance!
           </p>
           <p className="f3">
-            Having a basic level of technical literacy is fundamental to getting your million pound project off the ground.    
-          </p>
-          <p className="f3">
-            Bristol Code School is design around you, to give you the tools to empower you to make better technical decisions.
+            Bristol Code School is designed around you, empowering you to make better technical decisions.
           </p>
           <p className="f3">
           In this 3 week course you will learn all about web development and create and publish your own website, from scratch!
@@ -52,36 +49,36 @@ class App extends Component {
       </section>
 
       <section className="why-learn vh-100 background-blue">
-        <h2 className="f1 center tc ma0 pt6 pb5 w-100 grey">Why learn to Code?</h2>
+        <h2 className="center tc ma0 pt6 pb5 w-100 pink">Why learn to Code?</h2>
 
         <div className="mh6 why-one">
-          <h3 className="grey f2">Stand out from the crowd</h3>
-          <p className="grey w-50 f3 lh-copy ">
-            A basic knowledge of programming is crucial to the modern workplace. It is the extra string to your bow that will be key to any jobs that touch the tech sector, especially in small creative companies where your job encompasses a little bit of everything.
+          <h3 className="grey f1 mt0">Stand out from the crowd</h3>
+          <p className="grey w-60 f2 lh-copy ">
+            A basic knowledge of programming is crucial to the modern workplace. It is the extra string to your bow that is crucial in small creative companies where your job encompasses a little bit of everything.
           </p>
         </div>
 
         <div className="why-two">
           <div className="fr tr w-60">
-            <h3 className="grey f2">Understand other aspects of tech</h3>
-            <p className="grey f3 lh-copy">
+            <h3 className="grey f1 mt0">Understand other aspects of tech</h3>
+            <p className="grey f2 lh-copy">
               Knowledge of process of programming will mean you can learn other aspects of how tech works quicker. Learning how to code doesn't have to lead into being a programmer, but gaining a digital literacy that can be invaluble. 
             </p>
           </div>
         </div>
 
         <div className="why-three">
-          <h3 className="grey f2">Empower yourself</h3>
-          <p className="grey f3 w-50 lh-copy">
+          <h3 className="grey f1 mt0">Empower yourself</h3>
+          <p className="grey f2 w-50 lh-copy">
             Have hundered of ideas the next big thing? Learn to code so you can make that dream your reality without hving to rely on someone else. 
           </p>
         </div>
 
         <div className="why-four">
           <div className="fr tr w-60">
-            <h3 className="grey f2">You can do it</h3>
+            <h3 className="pink f1 mt0">You can do it</h3>
             <p className="grey f2 lh-copy">
-              Coding isn't a club only for elite mathematicians, but a set of skills that anyone can pick up with some time and patience, just like any other skill
+              Coding isn't a club only for elite mathematicians, but a set of skills that anyone can pick up with time and patience, just like any other skill
             </p>
           </div>
         </div>
@@ -89,7 +86,7 @@ class App extends Component {
       </section>
 
       <section className="background-light-blue flex flex-wrap pb6 w-100">
-        <h2 className="f1 center tc ma0 pv4 w-100 pink">What you will learn</h2>
+        <h2 className="center tc ma0 pv4 w-100 pink">What you will learn</h2>
         <div className="w-50 tr f3">
           <h3 className="ma0 ph4 pv3 pink">HTML</h3>
         </div>
