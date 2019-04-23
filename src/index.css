@@ -67,7 +67,7 @@ header {
 
 header::after {
   content: "";
-  background-image: url("./images/code-image.jpg");
+  background-image: url("./images/bristol-bridge.jpg");
   background-size: cover;
   opacity: 0.5;
   top: 0;
@@ -90,4 +90,62 @@ input::placeholder {
 
 input.submit {
   border: 2px solid #f64372;
+}
+
+/* specific */
+.why-learn {
+  overflow: scroll;
+}
+.why-one {
+  /* position: absolute; */
+  width: 90%;
+  height: 100vh;
+  top: 10%;
+  left: 50%;
+  background-image: url("https://i2-prod.bristolpost.co.uk/incoming/article314282.ece/ALTERNATES/s1227b/balloon-fiesta-thursday-06.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  filter: grayscale(100%);
+  margin: 0 auto;
+}
+
+.why-two {
+  width: 90%;
+  height: 100vh;
+  top: 10%;
+  left: 50%;
+  background-image: url("./images/balloon-taking-off.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  filter: grayscale(100%);
+  margin: 0 auto;
+}
+
+.why-three {
+  /* position: absolute; */
+  width: 90%;
+  height: 100vh;
+  top: 10%;
+  left: 50%;
+  /* background-image: url("./images/balloon3.jpg"); */
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  filter: grayscale(100%);
+  margin: 0 auto;
+}
+
+.why-four {
+  width: 90%;
+  height: 100vh;
+  top: 10%;
+  left: 50%;
+  background-image: url("./images/balloon-taking-off.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  filter: grayscale(100%);
+  margin: 0 auto;
 }

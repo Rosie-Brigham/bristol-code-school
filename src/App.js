@@ -3,6 +3,8 @@ import './App.css';
 
 import logo from './images/blue-logo.png'
 import balloon from './images/hot-air-balloon.jpg'
+import ballonThree from './images/balloon3.jpg'
+import blueBalloon from './images/blue-balloon.jpg'
 // import codeImage from './images-codimage.jpg'
 
 class App extends Component {
@@ -32,7 +34,7 @@ class App extends Component {
       <section className="about split-background pv5">
         <div className="w-100 w-60-ns pv4 ph5 ml6 background-dpink lh-copy">
           <p className="f3">
-            Some short snappy sentances about how coding is so great
+            Always wanted to learn to code but never got round to it? Here's your chance!
           </p>
           <p className="f3">
             Having a basic level of technical literacy is fundamental to getting your million pound project off the ground.    
@@ -49,7 +51,44 @@ class App extends Component {
         </div> */}
       </section>
 
-      <section className="background-light-blue flex flex-wrap pb6">
+      <section className="why-learn vh-100 background-blue">
+        <h2 className="f1 center tc ma0 pt6 pb5 w-100 grey">Why learn to Code?</h2>
+
+        <div className="mh6 why-one">
+          <h3 className="grey f2">Stand out from the crowd</h3>
+          <p className="grey w-50 f3 lh-copy ">
+            A basic knowledge of programming is crucial to the modern workplace. It is the extra string to your bow that will be key to any jobs that touch the tech sector, especially in small creative companies where your job encompasses a little bit of everything.
+          </p>
+        </div>
+
+        <div className="why-two">
+          <div className="fr tr w-60">
+            <h3 className="grey f2">Understand other aspects of tech</h3>
+            <p className="grey f3 lh-copy">
+              Knowledge of process of programming will mean you can learn other aspects of how tech works quicker. Learning how to code doesn't have to lead into being a programmer, but gaining a digital literacy that can be invaluble. 
+            </p>
+          </div>
+        </div>
+
+        <div className="why-three">
+          <h3 className="grey f2">Empower yourself</h3>
+          <p className="grey f3 w-50 lh-copy">
+            Have hundered of ideas the next big thing? Learn to code so you can make that dream your reality without hving to rely on someone else. 
+          </p>
+        </div>
+
+        <div className="why-four">
+          <div className="fr tr w-60">
+            <h3 className="grey f2">You can do it</h3>
+            <p className="grey f2 lh-copy">
+              Coding isn't a club only for elite mathematicians, but a set of skills that anyone can pick up with some time and patience, just like any other skill
+            </p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section className="background-light-blue flex flex-wrap pb6 w-100">
         <h2 className="f1 center tc ma0 pv4 w-100 pink">What you will learn</h2>
         <div className="w-50 tr f3">
           <h3 className="ma0 ph4 pv3 pink">HTML</h3>
@@ -101,10 +140,10 @@ class App extends Component {
         </div>
         <div className="w-60 ph5 lh-copy">
           <p className="grey">
-            Rosie originally studied History of Art and was a devout technophobe but that all changed in 2013 where she joined the inaugaral co-hort of CodeFirst:Girls. She discovered that programming and 'computer stuff' didn't have to be scary and inaccessible, but rather a perfectly legitimate career choice for a [something relateable, like creative and interestsed about life]
+            Rosie first learnt to code in 2013 after graduating from History of Art as a devout technophobe. She discovered that programming and 'computer stuff' didn't have to be scary and inaccessible, but rather fun and empowering.
             </p>
             <p className="grey">
-            She has been working as a programmer and teaching people how to code since, she has previously taught with Decoded, Code First: Girls, Superhi and Enspiral Dev Academy in New Zealand before setting up Bristol Code School.
+            She has been working as a programmer and teaching people how to code ever since. She has previously worked with educational companies such as Decoded, Code First: Girls, Superhi and Enspiral Dev Academy before setting up Bristol Code School.
           </p>
         </div>
         <div className="w-20 grey">
