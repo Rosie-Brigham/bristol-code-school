@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/bristol-code-school/static/media/balloon-taking-off.538e31c8.jpg"
   },
   {
-    "revision": "ab606dbe648fa9ab3f34d5e44bd877cf",
-    "url": "/bristol-code-school/static/media/bristol-bridge.ab606dbe.jpg"
-  },
-  {
     "revision": "02fbd7729bd7da1969c4b9de22abfd3b",
     "url": "/bristol-code-school/static/media/balloon-fire.02fbd772.jpg"
   },
   {
     "revision": "30c5f3015ca28f2ae0299d41467bbf53",
     "url": "/bristol-code-school/static/media/blue-balloon.30c5f301.jpg"
+  },
+  {
+    "revision": "ab606dbe648fa9ab3f34d5e44bd877cf",
+    "url": "/bristol-code-school/static/media/bristol-bridge.ab606dbe.jpg"
   },
   {
     "revision": "81b7792cab059c2be3b030ac3a80398b",

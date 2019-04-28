@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bristol-code-school/precache-manifest.ca0d688ef69b7a3fd5599cf14e80ed8e.js"
+  "/bristol-code-school/precache-manifest.49c5b35074e5926fd048b32fc350e6a7.js"
 );
 
 workbox.clientsClaim();
