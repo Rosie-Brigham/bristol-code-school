@@ -9,9 +9,7 @@ class WhyLearn extends Component {
       <section className="why-learn  background-blue">
         <h2 className="center tc ma0 pt4 pb3 w-100 pink background-blue">Why learn to Code?</h2>
 
-        <section className="why-learn-scroll pt5 vh-100 ">
-
-        
+        <section className="why-learn-scroll pt5 vh-100 ">  
           <div className="mh6 why-one">
             <h3 className="grey f1 mt0">Stand out from the crowd</h3>
             <p className="grey w-60 f2 lh-copy ">
@@ -44,7 +42,6 @@ class WhyLearn extends Component {
             </div>
           </div>
         </section>
-        
       </section>
     )
   }

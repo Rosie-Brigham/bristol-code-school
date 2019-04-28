@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 import WhyLearn from './components/WhyLearn'
+import WhatYouWillLearn from './components/WhatYouWillLearn'
+import AboutTheInstructor from './components/AboutTheInstructor'
+import ContactForm from './components/ContactForm'
 
 import logo from './images/blue-logo.png'
 
@@ -47,85 +50,10 @@ class App extends Component {
       </section>
 
       <WhyLearn/>
-      
-
-      <section className="background-light-blue flex flex-wrap pb6 w-100">
-        <h2 className="center tc ma0 pv4 w-100 pink">What you will learn</h2>
-        <div className="w-50 tr f3">
-          <h3 className="ma0 ph4 pv3 pink">HTML</h3>
-        </div>
-        <div className="w-50">
-          <p className="pl3 pr6 lh-copy">
-            Start off by learning to how create simple and effective semantically written HTML, the most basic building block of web pages
-          </p>
-        </div>
-        <div className="w-50 tr f3">
-          <h3 className="ma0 ph4 pv3 pink">CSS</h3>
-        </div>
-        <div className="w-50">
-          <p className="pl3 pr6 lh-copy">
-            Introduce design onto your website by adding simple but effective styles. We will go over the latest developments so you can get the most dramatic designs
-          </p>
-        </div>
-        <div className="w-50 tr f3">
-          <h3 className="ma0 ph4 pv3 pink">Github</h3>
-        </div>
-        <div className="w-50">
-          <p className="pl3 pr6 lh-copy">
-            Learn how to store, manage and share your code like a pro, and publish your website on github pages
-          </p>
-        </div>
-        <div className="w-50 tr f3">
-          <h3 className="ma0 ph4 pv3 pink">Javascript</h3>
-        </div>
-        <div className="w-50">
-          <p className="pl3 pr6 lh-copy">
-            Add some functionality to your site with one of the most popular programming languages, Javascript. We will look at 'traditional' javascript, as well as librarys such as jquery and look at frameworks like react.
-          </p>
-        </div>
-        <div className="w-50 tr f3">
-          <h3 className="ma0 ph4 pv3 pink">Designed for you</h3>
-        </div>
-        <div className="w-50">
-          <p className="pl3 pr6 lh-copy">
-            Have a project at work? A website you want to copy? Tell us and we will try and design the syllabus either to support you building your dream website or give you the know-how for all the latest buzzwords to secure that next promotion.
-          </p>
-        </div>
-      </section>
-      <section className="background-dpink ph6 pv5 flex flex-wrap">
-        <div className="w-20">
-          <img 
-            src="https://rosie-brigham.github.io/images/mecodesquare.jpg" 
-            className="br-100" 
-          />
-        </div>
-        <div className="w-60 ph5 lh-copy">
-          <p className="grey">
-            Rosie first learnt to code in 2013 after graduating from History of Art as a devout technophobe. She discovered that programming and 'computer stuff' didn't have to be scary and inaccessible, but rather fun and empowering.
-            </p>
-            <p className="grey">
-            She has been working as a programmer and teaching people how to code ever since. She has previously worked with educational companies such as Decoded, Code First: Girls, Superhi and Enspiral Dev Academy before setting up Bristol Code School.
-          </p>
-        </div>
-        <div className="w-20 grey">
-          <h2 className="f1">About the Instructor</h2>
-        </div>
-      </section>
-
-      <section>
-        <h2 className="f1 center tc pink background-blue ma0 pv5">Questions or queries? Give us a bell!</h2>
-        <div className="background-blue">
-          <form className="w-40 center flex flex-wrap">
-            <input className="w-100 pa2 ma3" type="text" id="name" name="firstname" placeholder="Your name"/>
-
-            <input className="w-100 pa2 ma3" type="text" id="email" name="lastname" placeholder="Your email address"/>
-
-            <input className="w-100 pa2 ma3 h3" type="text" id="lname" name="lastname" placeholder="Fill me with questions!"/>
-          
-            <input className="submit center ph5 pv3  mv5" type="submit" value="Submit"/>
-          </form>
-        </div>
-      </section>
+      <WhatYouWillLearn />
+      <AboutTheInstructor />
+      <ContactForm />
+ 
       </div>
     );
   }
