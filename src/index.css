@@ -106,7 +106,12 @@ input.submit {
 }
 
 /* specific */
-.why-learn {
+.why-learn h2 {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.why-learn-scroll {
   overflow: scroll;
   overflow-x: hidden;
   /* overflow-y: hidden; */
