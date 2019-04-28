@@ -10,7 +10,7 @@ class WhatYouWillLearn extends Component {
         </div>
         <div className="w-50">
           <p className="pl3 pr6 lh-copy">
-            Start off by learning to how create simple and effective semantically written HTML, the most basic building block of web pages
+            Start off by learning to how create simple and effective HTML, the most basic building block of web pages.
           </p>
         </div>
         <div className="w-50 tr f3">
@@ -18,7 +18,7 @@ class WhatYouWillLearn extends Component {
         </div>
         <div className="w-50">
           <p className="pl3 pr6 lh-copy">
-            Introduce design onto your website by adding simple but effective styles. We will go over the latest developments so you can get the most dramatic designs
+            Introduce design onto your website by adding simple but effective styles. We will go over the latest developments so you can get the most dramatic designs.
           </p>
         </div>
         <div className="w-50 tr f3">
@@ -26,7 +26,7 @@ class WhatYouWillLearn extends Component {
         </div>
         <div className="w-50">
           <p className="pl3 pr6 lh-copy">
-            Learn how to store, manage and share your code like a pro, and publish your website on github pages
+            Learn how to store, manage and share your code like a pro, and publish your website on github pages.
           </p>
         </div>
         <div className="w-50 tr f3">

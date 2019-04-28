@@ -18,12 +18,12 @@ class App extends Component {
         <img 
           src={logo} 
           alt="Bristol Code School"
-          className="main-logo vw-100" />
+          className="main-logo w-100" />
       </header>
       <section className="flex flex-wrap">
         <div className="strapline background-blue w-100 w-50-ns vh-25 flex justify-center items-center pa3">
           <h1 className="f3 f1-ns tc grey ma0 ">
-            Bristol based coding tution, tailored to your needs
+            Bristol based coding tuition, tailored to your needs
           </h1>
         </div>
         <div className="enrol background-blue w-100 w-50-ns vh-25 flex justify-center items-center">
@@ -41,7 +41,7 @@ class App extends Component {
             Bristol Code School is designed around you, empowering you to make better technical decisions.
           </p>
           <p className="f3">
-          In this 3 week course you will learn all about web development and create and publish your own website, from scratch!
+            In this 3 week course you will learn all about web development and how to create and publish your own website, from scratch!
           </p>
         </div>
         {/* <div className="w-100 w-50-ns">
