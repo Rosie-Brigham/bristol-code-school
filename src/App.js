@@ -44,9 +44,6 @@ class App extends Component {
             In this 3 week course you will learn all about web development and how to create and publish your own website, from scratch!
           </p>
         </div>
-        {/* <div className="w-100 w-50-ns">
-          <img src={balloon} className="w-100"/>
-        </div> */}
       </section>
 
       <WhyLearn/>
