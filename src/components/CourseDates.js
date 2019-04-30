@@ -42,8 +42,8 @@ class CourseDates extends Component {
   }
   render() {
     return (
-      <section className="courseDates background-dpink tc pt3 pb5">
-        <h2 className="white ma0">Course Dates</h2>
+      <section id="courseDates" className="courseDates background-dpink tc pt3 pb5 ph3">
+        <h2 className="white ma0 f1 f0-ns">Course Dates</h2>
         <p className="f4 lh-copy">The course will run Tuesday and Thursday evenings, from 6-8pm, for three weeks</p>
         <p className="f4 bold lh-copy">Next course start date:</p>
         <h3 className="white f2">
