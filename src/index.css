@@ -20,6 +20,20 @@ a {
   text-decoration: none;
 }
 
+button {
+  color: #f64372;
+  background-color: #ffffff;
+  border: 3px solid #f64372;
+  font-size: 3rem;
+}
+
+button.blue {
+  color: #2f2fa2;
+  background-color: #ffffff;
+  border: 3px solid #2f2fa2;
+  font-size: 3rem;
+}
+
 .pink {
   color:#f64372;
 }
@@ -49,7 +63,11 @@ a {
 }
 
 .background-grey {
-  background-color: #cbcbcb
+  background-color: #cbcbcb;
+}
+
+.background-white {
+  background-color: #ffffff;
 }
 
 .border-pink {
@@ -123,54 +141,34 @@ input.submit {
   overflow-x: hidden;
   /* overflow-y: hidden; */
 }
+
 .why-one {
-  /* position: absolute; */
-  width: 90%;
-  height: 100vh;
-  top: 10%;
-  left: 50%;
   background-image: url("./images/balloon-fire.jpg");
   background-position: right top;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  margin: 0 auto;
 }
 
-.why-two {
-  width: 90%;
-  height: 100vh;
-  top: 10%;
-  left: 50%;
+.why-two { 
   background-image: url("./images/balloon-taking-off.jpg");
   background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  /* filter: grayscale(100%); */
-  margin: 0 auto;
 }
 
 .why-three {
-  /* position: absolute; */
-  width: 90%;
-  height: 100vh;
-  top: 10%;
-  left: 50%;
+
   background-image: url("./images/hot-air-balloon.jpg");
   background-position: right top;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  /* filter: grayscale(100%); */
-  margin: 0 auto;
 }
 
 .why-four {
-  width: 90%;
-  height: 100vh;
-  top: 10%;
-  left: 50%;
   background-image: url("./images/blue-balloon.jpg");
   background-position: left top;
+}
+
+.why-one, .why-two, .why-three, .why-four {
+  width: 90%;
+  height: 80vh;
+  top: 10%;
+  left: 50%;
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 55%;
   margin: 0 auto;
 }
