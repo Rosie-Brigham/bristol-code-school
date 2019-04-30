@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-button {
+button, a.button {
   color: #f64372;
   background-color: #ffffff;
   border: 3px solid #f64372;
@@ -84,6 +84,11 @@ button.blue {
 
 .split-background {
   background: linear-gradient(to bottom, #242582 0%,#242582 50%,#000000 50%,#2f2fa2 50%,#2f2fa2 100%); 
+}
+@media only screen and (min-width: 480px){
+  .blue-background-ns {
+    background-color: #242582;
+  }
 }
 
 section::-webkit-scrollbar {
