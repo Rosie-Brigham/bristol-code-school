@@ -5,6 +5,7 @@ import WhyLearn from './components/WhyLearn'
 import WhatYouWillLearn from './components/WhatYouWillLearn'
 import AboutTheInstructor from './components/AboutTheInstructor'
 import ContactForm from './components/ContactForm'
+import CourseDates from './components/CourseDates'
 
 import logo from './images/blue-logo.png'
 
@@ -27,7 +28,7 @@ class App extends Component {
           </h1>
         </div>
         <div className="enrol background-blue w-100 w-50-ns vh-25 flex justify-center items-center">
-          <button className="f3 f1-ns pink tc br2 ph4 pv2 border-pink">Enrol now!</button>
+          <a href="#contact "className="f3 f1-ns pink tc br2 ph4 pv2 border-pink background-white">Enrol now!</a>
         </div>
       </section>
 
@@ -47,6 +48,7 @@ class App extends Component {
       </section>
 
       <WhyLearn/>
+      <CourseDates />
       <WhatYouWillLearn />
       <AboutTheInstructor />
       <ContactForm />
