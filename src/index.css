@@ -91,6 +91,12 @@ button.blue {
   }
 }
 
+@media only screen and (min-width: 480px) {
+  .f0-ns {
+    font-size: 5em;
+  }
+}
+
 section::-webkit-scrollbar {
   width: 0px;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
@@ -121,18 +127,9 @@ header::after {
   z-index: -1;
 }
 
-input {
-  background-color: #242582;
-  border: 0;
-  border-bottom: 2px solid #f64372;
-}
-
-input::placeholder {
-  color: #cbcbcb;
-}
-
-input.submit {
-  border: 2px solid #f64372;
+nav {
+  position: sticky;
+  top: 0;
 }
 
 /* specific */
@@ -170,10 +167,16 @@ input.submit {
 
 .why-one, .why-two, .why-three, .why-four {
   width: 90%;
-  height: 80vh;
   top: 10%;
+  height: 100%;
   left: 50%;
   background-repeat: no-repeat;
   background-size: 55%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 480px) {
+  .why-one, .why-two, .why-three, .why-four {
+    height: 80vh;
+  }
 }
